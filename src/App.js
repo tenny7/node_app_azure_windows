@@ -1,6 +1,5 @@
 import logo from './logo.svg';
 import './App.css';
-import Index from './components/carrot';
 import {useState} from 'react'
 import Card from './components/Card'
 
