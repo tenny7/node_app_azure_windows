@@ -5,19 +5,19 @@ function Card(props) {
  
     return (
         <div>
-           {cardView == "Gift Card" ? 
+           {cardView === "Gift Card" ? 
             <form>
                 <input type="text" name="first_name" value="apples"/>
                 <input type="text" name="last_name" value="bannanas"/>
             </form>
             :
-            (cardView == "Credit Card" ?
+            (cardView === "Credit Card" ?
             <form>
                 <input type="text" name="first_name" value="fish"/>
                 <input type="text" name="last_name" value="chicken"/>
             </form>
             :
-            ( cardView == "Apple Card" ?  
+            ( cardView === "Apple Card" ?  
             <form>
                 <input type="text" name="first_name" value="cars"/>
                 <input type="text" name="last_name" value="money"/>
