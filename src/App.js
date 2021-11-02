@@ -9,15 +9,13 @@ function App() {
   const buttonClicked = () => {
     setTitle('Gift Card')
   }
-  
-    
    
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />        
         <button onClick={buttonClicked}>
-         I am button. Click my eyes  
+         I am button. Click Me  
         </button>  
         <hr/>
         <Card activeTab={title}/>  
