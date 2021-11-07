@@ -1,0 +1,72 @@
+.card-ui {
+    width: 600px;
+    height: 400px;
+    background-color: #fff;
+    margin: 20px;
+    border-radius: 20px;
+    color: rgb(3, 3, 3);
+    -webkit-box-shadow: 1px 9px 9px -8px rgba(3,3,3,1);
+    -moz-box-shadow: 1px 9px 9px -8px rgba(3,3,3,1);
+    box-shadow: 1px 9px 9px -8px rgba(3,3,3,1);
+}
+
+.flx-center {
+    display: flex;
+    direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.flx-space-between {
+    display: flex;
+    direction: row;
+    flex-wrap: wrap;
+    padding: 08px 25px;
+    justify-content: space-between;
+}
+
+.ui-m-5 {
+    margin: 5px;
+}
+
+.label-teal {
+    padding: 5px;
+    background-color: #207178;
+    font-size: 19px;
+    color: #fff;
+    border-radius: 10px;
+}
+
+.label-blue {
+    padding: 5px;
+    background-color: #1781cd;
+    font-size: 19px;
+    color: #fff;
+    border-radius: 3px;
+}
+
+hgroup {
+    display: flex;
+    flex-direction: column;
+}
+hgroup .card-subheading {
+    order: -1;
+}
+
+.flx-column {
+    display: flex; 
+}
+
+table, th, td {
+    font-size: 16px;
+    border:1px solid rgb(255, 255, 255);
+}
+
+.table-style {
+    width: 100%;
+}
+
+.image-size-edit {
+    width: 100px;
+    height: 100px;
+}
