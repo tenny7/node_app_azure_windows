@@ -1,7 +1,7 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
-import {useState} from 'react'
-import Card from './components/Card'
+// import {useState} from 'react'
+// import Card from './components/Card'
 import Kpi from './components/Kpi'
 import Dashboard from './components/Dashboard'
 import './components/css/style.css'
