@@ -44,7 +44,7 @@ function Kpi() {
                         </form>
                     </div> 
 
-                    <div>
+                    <div className="vertical-line">
                         <form>
                             <h5>Enter Target</h5>
                             <input type="text" value="" className="ui-m-5" placeholder="Enter Target" />
@@ -54,10 +54,14 @@ function Kpi() {
                         </form> 
 
                         <div>
-                            <h5><span className="label-teal">Current KPI</span> : <span className="label-blue">4.59</span> </h5>   
-                            <h5><span className="label-teal">Required 5-stars</span> : <span className="label-blue">5</span> </h5>   
+                            
+                            <h6>Required 5-stars : <span className="label-blue">5</span> </h6>
+                            <h6>Current KPI <span className="label-blue">4.59</span> </h6>     
                         </div> 
                     </div> 
+                </div>
+                <div>
+                    <p className="p-4">Case Documentation can help improve the csat ratings</p>
                 </div>
             </div>
         </div>
